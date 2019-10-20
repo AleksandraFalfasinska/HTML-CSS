@@ -47,8 +47,7 @@ resetButton.addEventListener("click", function () {
 });
 
 numInput.addEventListener("change", function () {
-    winningScoreDisplay.textContent = numInput.value; //instead of  numInputr I can use keyword  'this'
+    winningScoreDisplay.textContent = numInput.value;
     winningScore = Number(numInput.value);
-    //we have to call the reset function to bypass the bug (during the game we decrease the winningScore and then the game is again infinite)
     reset();
 });
