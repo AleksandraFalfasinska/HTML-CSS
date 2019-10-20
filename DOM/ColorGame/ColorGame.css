@@ -5,10 +5,8 @@ body {
 }
 
 .square {
-    /* 30% wielkości tagu "rodzica" W tym wypadku body */
     width: 30%;
     background: purple;
-    /* dodajemy paddin,żeby w ogóle było je widać na stronie ponieważ nie maja jeszcze wartości */
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
